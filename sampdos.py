@@ -1,8 +1,4 @@
 import socket, struct, codecs, threading, random, time, argparse, os, sys
-from colorama import init, Fore, Style
-
-
-init()
 
 
 current_file = os.path.basename(__file__)
@@ -13,10 +9,8 @@ if current_file != 'sampdos.py':
     sys.exit(1)
 
 
-
-print(Fore.RED)
 print("Milad_IT Sampdos v4.6")
-print(" ")
+
 # // log
 ###### By Milad_IT
 print("\033[1;37mWelcome to SAMPDOS \033[30m")
@@ -65,19 +59,14 @@ os.system('cls' if os.name == 'nt' else 'clear')
 print("                      \u001b[35m Sent Attack   ")
 print(" ")
 print(" ")
-print(Fore.BLUE)
 print("              Address IP : {}:{}".format(host, port))
-print(Fore.GREEN)
 print("________________________________________________")
-print(Fore.RED)
 print("              Timer Attack : {}".format(times))
 print("              Power Attack : 1")
 print("              Method Attack : Samp dos")
 print(" $ ")
 print(" $ ")
-print(Fore.YELLOW)
 print('                      Created By Milad_IT ')
-print(" ")
 
 def sampdos(host, port, times):
 
